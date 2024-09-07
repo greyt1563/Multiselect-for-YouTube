@@ -1,0 +1,356 @@
+{
+   "addToPlaylist": {
+      "message": "Guardar na playlist"
+   },
+   "addToQueue": {
+      "message": "Adicionar à fila"
+   },
+   "addToWatchLater": {
+      "message": "Guardar para ver mais tarde"
+   },
+   "addVideosFromFile": {
+      "message": "Adicionar vídeos do arquivo"
+   },
+   "bottomCenter": {
+      "message": "centro inferior"
+   },
+   "bottomLeft": {
+      "message": "inferior esquerdo"
+   },
+   "callout1": {
+      "message": "Aqui você liga e desliga a seleção múltipla ou com estes"
+   },
+   "callout2": {
+      "message": "Aqui está a barra de ação para seleção múltipla."
+   },
+   "callout3": {
+      "message": "Aqui você pode fechar a barra de ação novamente."
+   },
+   "callout4": {
+      "message": "Se você gosta desta extensão, eu apreciaria uma pequena doação."
+   },
+   "callout5": {
+      "message": "Aqui você pode ver quantos vídeos você selecionou."
+   },
+   "callout6": {
+      "message": "Aqui você pode selecionar todos os vídeos."
+   },
+   "callout7": {
+      "message": "Aqui você pode desmarcar todos os vídeos selecionados novamente."
+   },
+   "callout8": {
+      "message": "Aqui está um menu com funções adicionais."
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "caseSensitive": {
+      "message": "Maiúsculas e minúsculas"
+   },
+   "channelName": {
+      "message": "Nome do canal"
+   },
+   "chooseOutputFormat": {
+      "message": "Selecione um formato de saída"
+   },
+   "clickToClose": {
+      "message": "Clique para fechar"
+   },
+   "close": {
+      "message": "Fechar"
+   },
+   "confirmRemoveContent": {
+      "message": "Tem certeza de que deseja remover os vídeos selecionados desta lista?"
+   },
+   "copy": {
+      "message": "Copiar"
+   },
+   "ctrl": {
+      "message": "Ctrl"
+   },
+   "custom": {
+      "message": "personalizado"
+   },
+   "cut": {
+      "message": "Recortar"
+   },
+   "del": {
+      "message": "Del"
+   },
+   "deselectAllVideos": {
+      "message": "Desmarcar todos os vídeos"
+   },
+   "donate": {
+      "message": "Doar"
+   },
+   "downloadSelection": {
+      "message": "Salvar seleção em arquivo"
+   },
+   "end": {
+      "message": "End"
+   },
+   "esc": {
+      "message": "Esc"
+   },
+   "extensionDescription": {
+      "message": "Mova, classifique e copie vídeos em suas listas de reprodução com mais rapidez e facilidade."
+   },
+   "extensionName": {
+      "message": "Múltiseleção para YouTube™"
+   },
+   "filterHelpTooltip": {
+      "message": "Sintaxe de expressão regular"
+   },
+   "findDuplicatesBackwards": {
+      "message": "Encontre duplicatas para trás"
+   },
+   "hint100": {
+      "message": "Geralmente"
+   },
+   "hint101": {
+      "message": "Você pode ativar e desativar a seleção múltipla com o botão de ícone azul na barra de cabeçalho"
+   },
+   "hint101a": {
+      "message": "Se a seleção múltipla estiver desativada, as combinações de teclas também serão desativadas"
+   },
+   "hint102": {
+      "message": "Se você navegar para outra página, a seleção atual será perdida"
+   },
+   "hint103": {
+      "message": "Se você continuar navegando na mesma direção em um menu ou em uma página, você vai do primeiro ao último e do último ao primeiro item"
+   },
+   "hint104": {
+      "message": "“Mostrar mais” e “Mostrar menos” no painel esquerdo com nomes de lista de reprodução podem ser expandidos e recolhidos com Ctrl+I"
+   },
+   "hint105": {
+      "message": "Nesta versão, a área de transferência é uma pequena memória dentro da extensão e não a área de transferência do sistema operacional"
+   },
+   "hint106": {
+      "message": "O tema (escuro/claro) é automaticamente adotado do YouTube™"
+   },
+   "hint200": {
+      "message": "Selecionando vídeos"
+   },
+   "hint201": {
+      "message": "Você pode selecionar ou desmarcar um vídeo com um clique do mouse"
+   },
+   "hint202": {
+      "message": "Você pode selecionar ou desmarcar um vídeo focado com a barra de espaço/Enter"
+   },
+   "hint203": {
+      "message": "Um vídeo focado tem uma borda turquesa"
+   },
+   "hint203a": {
+      "message": "Se você não vê um foco ou nenhum vídeo foi focado ainda, pressione uma tecla de navegação"
+   },
+   "hint204": {
+      "message": "Um vídeo selecionado será destacado em azul aço e terá uma marca de seleção no canto inferior direito"
+   },
+   "hint205": {
+      "message": "Mantenha pressionada a tecla Shift para selecionar vários vídeos consecutivos"
+   },
+   "hint205a": {
+      "message": "Clique ou foque no primeiro vídeo para selecionar, segure Shift e clique ou foque no último vídeo para selecionar"
+   },
+   "hint206": {
+      "message": "Você pode selecionar vídeos com o filtro"
+   },
+   "hint207": {
+      "message": "Você pode salvar os IDs dos vídeos selecionados em um arquivo"
+   },
+   "hint207a": {
+      "message": "Formatos de saída: JSON, TEXT, HTML"
+   },
+   "hint300": {
+      "message": "Listas de reprodução"
+   },
+   "hint301": {
+      "message": "Você só pode adicionar vídeos às suas próprias listas de reprodução, incluindo Assistir mais tarde"
+   },
+   "hint302": {
+      "message": "Você só pode excluir vídeos em suas próprias listas de reprodução, incluindo Assistir mais tarde, Vídeos curtidos e Histórico"
+   },
+   "hint302a": {
+      "message": "Os vídeos são excluídos apenas se você confirmar o prompt de segurança"
+   },
+   "hint303": {
+      "message": "Os vídeos são adicionados à parte superior ou inferior de uma lista de reprodução conforme definido nas configurações da lista de reprodução"
+   },
+   "hint304": {
+      "message": "Você pode adicionar vídeos de um arquivo"
+   },
+   "hint304a": {
+      "message": "Formatos de importação: JSON, TEXT, HTML"
+   },
+   "home": {
+      "message": "Home"
+   },
+   "ins": {
+      "message": "Ins"
+   },
+   "invalidData": {
+      "message": "Dados inválidos"
+   },
+   "invalidFilter": {
+      "message": "Expressão regular inválida"
+   },
+   "kbActivateFocusedMenuItem": {
+      "message": "Ativa o item de menu focado"
+   },
+   "kbCloseMenu": {
+      "message": "Fecha o menu"
+   },
+   "kbCopySelectedVideos": {
+      "message": "Copia os vídeos selecionados para a área de transferência"
+   },
+   "kbCutSelectedVideos": {
+      "message": "Copia os vídeos selecionados para a área de transferência e os exclui da sua lista de reprodução ou histórico (com prompt de segurança)"
+   },
+   "kbDeleteSelectedVideos": {
+      "message": "Exclui os vídeos selecionados ou o vídeo em foco da sua lista de reprodução ou histórico (com solicitação de confirmação)"
+   },
+   "kbFocusAboveVideo": {
+      "message": "Foca o vídeo anterior/acima"
+   },
+   "kbFocusBelowVideo": {
+      "message": "Focaliza o vídeo seguinte/abaixo"
+   },
+   "kbFocusFirstMenuItem": {
+      "message": "Focaliza o primeiro item do menu"
+   },
+   "kbFocusFirstVideo": {
+      "message": "Foca o primeiro vídeo"
+   },
+   "kbFocusLastMenuItem": {
+      "message": "Focaliza o último item do menu"
+   },
+   "kbFocusLastVideo": {
+      "message": "Focaliza o último vídeo (carrega o próximo lote de vídeos)"
+   },
+   "kbFocusNextMenuItem": {
+      "message": "Focaliza o próximo item de menu"
+   },
+   "kbFocusNextSelectedVideo": {
+      "message": "Foca no próximo vídeo selecionado"
+   },
+   "kbFocusNextVideo": {
+      "message": "Foca o próximo vídeo"
+   },
+   "kbFocusPreviousMenuItem": {
+      "message": "Focaliza o item de menu anterior"
+   },
+   "kbFocusPreviousSelectedVideo": {
+      "message": "Foca no vídeo selecionado anteriormente"
+   },
+   "kbFocusPreviousVideo": {
+      "message": "Focaliza o vídeo anterior"
+   },
+   "kbPasteVideos": {
+      "message": "Cola os vídeos da área de transferência na lista de reprodução atual"
+   },
+   "kbToggleAllVideos": {
+      "message": "Seleciona ou desmarca todos os vídeos"
+   },
+   "kbToggleFocusedVideo": {
+      "message": "Seleciona ou desmarca o vídeo focado"
+   },
+   "keys": {
+      "message": "Chaves"
+   },
+   "loadEntirePlaylist": {
+      "message": "Carregar lista de reprodução inteira"
+   },
+   "loadingEntirePlaylist": {
+      "message": "Carregando toda a lista de reprodução"
+   },
+   "localeDir": {
+      "message": "ltr"
+   },
+   "moveAfter": {
+      "message": "Mova-se depois disso"
+   },
+   "moveToBottom": {
+      "message": "Mover para o fim"
+   },
+   "moveToTop": {
+      "message": "Mover para o início"
+   },
+   "news": {
+      "message": "\u003Ch2>na versão 3.5\u003C/h2>\u003Cspan>🔧 Detecção de vídeo fixa\u003C/span>\u003Ch2>na versão 3.4\u003C/h2>\u003Cspan><s>✔️ Opção não documentada: Bloquear anúncios</s>\u003C/span>\u003Cspan>🎁 Adicione vídeos de arquivos a listas de reprodução\u003C/span>\u003Cspan>🎁 Salvar seleção em arquivo\u003C/span>\u003Cspan>🎁 Selecione os vídeos assistidos usando o filtro\u003C/span>\u003Cspan>🎁 Posicione livremente a barra de ação e o filtro\u003C/span>\u003Ch2>na versão 3.3\u003C/h2>\u003Cspan>🔧 Corrigido adicionar à nova lista de reprodução\u003C/span>\u003Cspan>✔️ Opção: Encontre duplicatas para trás\u003C/span>\u003Ch2>na versão 3.2\u003C/h2>\u003Cspan>🔧 Detecção de vídeo fixa\u003C/span>\u003Cspan>✔️ Opção: Excluir sem consulta de segurança\u003C/span>\u003Cspan>✨ Carregar lista de reprodução inteira\u003C/span>\u003Cspan>🎁 Selecionar vídeos pelo nome do canal\u003C/span>\u003Cspan>🎁 Menu de contexto completo\u003C/span>\u003Ch2>na versão 3.1\u003C/h2>\u003Cspan>🔨 Ícones invisíveis corrigidos na barra de ação\u003C/span>\u003Cspan>🔨 Menu fixo de 3 pontos na barra de ação\u003C/span>\u003Cspan>🎁 Posição alternativa da barra de ação, canto inferior esquerdo\u003C/span>\u003Ch2>na versão 3.0\u003C/h2>\u003Cspan>✔️ Suporta a nova interface Manifest V3\u003C/span>\u003Cspan>✔️ A experiência do usuário foi totalmente redesenhada\u003C/span>\u003Cspan>✔️ Mesma tela escura/clara do YouTube™\u003C/span>\u003Cspan>✔️ Os vídeos selecionados são claramente destacados\u003C/span>\u003Cspan>✔️ Botão de ícone para ativar/desativar a seleção múltipla\u003C/span>\u003Cspan>✔️ Barra de ação\u003C/span>\u003Cspan>✔️ Menu de contexto\u003C/span>\u003Cspan>🚀 Navegação pelo teclado\u003C/span>\u003Cspan>🚀 Copie, recorte e cole vídeos\u003C/span>\u003Cspan>✨ Encontrar duplicatas\u003C/span>\u003Cspan>🎁 Selecione vídeos com o filtro\u003C/span>"
+   },
+   "noDuplicatesFound": {
+      "message": "Nenhuma duplicata encontrada"
+   },
+   "noRemovalConfirmation": {
+      "message": "Excluir sem consulta de segurança"
+   },
+   "paste": {
+      "message": "Colar"
+   },
+   "positioning": {
+      "message": "Posicionar barra de ação e filtro"
+   },
+   "preserveSelection": {
+      "message": "Manter a seleção após a cópia"
+   },
+   "reloadRequired": {
+      "message": "\u003Cp>Esta extensão foi atualizada.\u003C/p>\u003Cp>Por favor, recarregue esta página.\u003C/p>"
+   },
+   "remove": {
+      "message": "Remover"
+   },
+   "removeVideos": {
+      "message": "Remover desta lista"
+   },
+   "resetCallouts": {
+      "message": "Repita o tour introdutório"
+   },
+   "selectAllVideos": {
+      "message": "Selecione todos os vídeos"
+   },
+   "selectDuplicates": {
+      "message": "Selecionar duplicados"
+   },
+   "selectWithFilter": {
+      "message": "Selecione com filtro"
+   },
+   "selected": {
+      "message": "selecionado"
+   },
+   "shortcuts": {
+      "message": "Atalhos do teclado"
+   },
+   "shortcutsHeadline1": {
+      "message": "Navegação no site"
+   },
+   "shortcutsHeadline2": {
+      "message": "Navegação na barra de ação e menu de contexto"
+   },
+   "showVideoIndex": {
+      "message": "Mostrar o índice de vídeo em suas listas de reprodução"
+   },
+   "sortPlaylistNames": {
+      "message": "Mostrar nomes de listas de reprodução classificados"
+   },
+   "tabHints": {
+      "message": "Pontas"
+   },
+   "tabSettings": {
+      "message": "Configurações"
+   },
+   "tabShortcuts": {
+      "message": "Combinações de teclas"
+   },
+   "tabWhatsNew": {
+      "message": "O que há de novo"
+   },
+   "title": {
+      "message": "Título"
+   },
+   "toggleMultiSelectMode": {
+      "message": "Habilitar/Desabilitar Múltiseleção"
+   },
+   "watched": {
+      "message": "Visto"
+   }
+}

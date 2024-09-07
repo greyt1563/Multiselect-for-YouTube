@@ -1,0 +1,356 @@
+{
+   "addToPlaylist": {
+      "message": "Zapisz na playliście"
+   },
+   "addToQueue": {
+      "message": "Dodaj do kolejki"
+   },
+   "addToWatchLater": {
+      "message": "Zapisz na liście Do obejrzenia"
+   },
+   "addVideosFromFile": {
+      "message": "Dodaj filmy z pliku"
+   },
+   "bottomCenter": {
+      "message": "dolny środek"
+   },
+   "bottomLeft": {
+      "message": "na dole po lewej"
+   },
+   "callout1": {
+      "message": "Tutaj włączasz i wyłączasz wybór wielokrotny lub za ich pomocą"
+   },
+   "callout2": {
+      "message": "Oto pasek akcji dla wielokrotnego wyboru."
+   },
+   "callout3": {
+      "message": "Tutaj możesz ponownie zamknąć pasek akcji."
+   },
+   "callout4": {
+      "message": "Jeśli podoba Ci się to rozszerzenie, będę wdzięczny za niewielką darowiznę."
+   },
+   "callout5": {
+      "message": "Tutaj możesz zobaczyć, ile filmów wybrałeś."
+   },
+   "callout6": {
+      "message": "Tutaj możesz wybrać wszystkie filmy."
+   },
+   "callout7": {
+      "message": "Tutaj możesz ponownie odznaczyć wszystkie wybrane filmy."
+   },
+   "callout8": {
+      "message": "Oto menu z dodatkowymi funkcjami."
+   },
+   "cancel": {
+      "message": "Anulować"
+   },
+   "caseSensitive": {
+      "message": "Wielkość liter ma znaczenie"
+   },
+   "channelName": {
+      "message": "Nazwa kanału"
+   },
+   "chooseOutputFormat": {
+      "message": "Wybierz format wyjściowy"
+   },
+   "clickToClose": {
+      "message": "Kliknij, aby zamknąć"
+   },
+   "close": {
+      "message": "Zamknąć"
+   },
+   "confirmRemoveContent": {
+      "message": "Czy na pewno chcesz usunąć wybrane filmy z tej listy?"
+   },
+   "copy": {
+      "message": "Kopiuj"
+   },
+   "ctrl": {
+      "message": "Ctrl"
+   },
+   "custom": {
+      "message": "zwyczaj"
+   },
+   "cut": {
+      "message": "Wycinaj"
+   },
+   "del": {
+      "message": "Del"
+   },
+   "deselectAllVideos": {
+      "message": "Odznacz wszystkie filmy"
+   },
+   "donate": {
+      "message": "Podarować"
+   },
+   "downloadSelection": {
+      "message": "Zapisz wybór do pliku"
+   },
+   "end": {
+      "message": "End"
+   },
+   "esc": {
+      "message": "Esc"
+   },
+   "extensionDescription": {
+      "message": "Przenieś, sortuj i kopiuj filmy z playlist szybciej i łatwiej."
+   },
+   "extensionName": {
+      "message": "Wielowybierać dla YouTube™"
+   },
+   "filterHelpTooltip": {
+      "message": "Składnia wyrażeń regularnych"
+   },
+   "findDuplicatesBackwards": {
+      "message": "Znajdź duplikaty wstecz"
+   },
+   "hint100": {
+      "message": "Ogólnie"
+   },
+   "hint101": {
+      "message": "Możesz włączać i wyłączać wielokrotny wybór za pomocą niebieskiej ikony przycisku na pasku nagłówka"
+   },
+   "hint101a": {
+      "message": "Jeśli wybór wielokrotny jest wyłączony, powiązania klawiszy są również wyłączone"
+   },
+   "hint102": {
+      "message": "Jeśli przejdziesz do innej strony, bieżący wybór zostanie utracony"
+   },
+   "hint103": {
+      "message": "Jeśli kontynuujesz nawigację w tym samym kierunku w menu lub na stronie, przechodzisz od pierwszego do ostatniego i od ostatniego do pierwszego elementu"
+   },
+   "hint104": {
+      "message": "„Pokaż więcej” i „Pokaż mniej” w lewym okienku z nazwami list odtwarzania można rozwinąć lub zwinąć, naciskając Ctrl + I"
+   },
+   "hint105": {
+      "message": "W tej wersji schowek jest małą pamięcią w rozszerzeniu, a nie schowkiem systemu operacyjnego"
+   },
+   "hint106": {
+      "message": "Motyw (ciemny/jasny) jest automatycznie przejmowany z serwisu YouTube™"
+   },
+   "hint200": {
+      "message": "Wybieranie filmów"
+   },
+   "hint201": {
+      "message": "Możesz zaznaczyć lub odznaczyć wideo jednym kliknięciem myszy"
+   },
+   "hint202": {
+      "message": "Możesz zaznaczyć lub odznaczyć zaznaczone wideo, naciskając spację/Enter"
+   },
+   "hint203": {
+      "message": "Skupiony film ma turkusową ramkę"
+   },
+   "hint203a": {
+      "message": "Jeśli nie widzisz fokusu lub żadne wideo nie zostało jeszcze fokusowane, naciśnij klawisz nawigacyjny"
+   },
+   "hint204": {
+      "message": "Wybrany film zostanie podświetlony na stalowoniebieski kolor i będzie miał znacznik wyboru w prawym dolnym rogu"
+   },
+   "hint205": {
+      "message": "Przytrzymaj klawisz Shift, aby wybrać wiele kolejnych filmów"
+   },
+   "hint205a": {
+      "message": "Kliknij lub skup się na pierwszym filmie, aby wybrać, przytrzymaj klawisz Shift i kliknij lub skup się na ostatnim filmie, aby wybrać"
+   },
+   "hint206": {
+      "message": "Możesz wybrać filmy z filtrem"
+   },
+   "hint207": {
+      "message": "Możesz zapisać identyfikatory wybranych filmów w pliku"
+   },
+   "hint207a": {
+      "message": "Formaty wyjściowe: JSON, TEXT, HTML"
+   },
+   "hint300": {
+      "message": "Playlisty"
+   },
+   "hint301": {
+      "message": "Możesz dodawać filmy tylko do własnych list odtwarzania, w tym Do obejrzenia"
+   },
+   "hint302": {
+      "message": "Filmy możesz usuwać tylko z własnych list odtwarzania, takich jak Do obejrzenia, Filmy, które mi się podobały i Historia"
+   },
+   "hint302a": {
+      "message": "Filmy są usuwane tylko wtedy, gdy potwierdzisz monit bezpieczeństwa"
+   },
+   "hint303": {
+      "message": "Filmy są dodawane na górze lub na dole listy odtwarzania zgodnie z konfiguracją w ustawieniach listy odtwarzania"
+   },
+   "hint304": {
+      "message": "Możesz dodawać filmy z pliku"
+   },
+   "hint304a": {
+      "message": "Importuj formaty: JSON, TEXT, HTML"
+   },
+   "home": {
+      "message": "Home"
+   },
+   "ins": {
+      "message": "Ins"
+   },
+   "invalidData": {
+      "message": "Nieprawidłowe dane"
+   },
+   "invalidFilter": {
+      "message": "Nieprawidłowe wyrażenie regularne"
+   },
+   "kbActivateFocusedMenuItem": {
+      "message": "Aktywuje skupiony pozycję menu"
+   },
+   "kbCloseMenu": {
+      "message": "Zamyka menu"
+   },
+   "kbCopySelectedVideos": {
+      "message": "Kopiuje wybrane filmy do schowka"
+   },
+   "kbCutSelectedVideos": {
+      "message": "Kopiuje wybrane filmy do schowka i usuwa je z listy odtwarzania lub historii (z monitem bezpieczeństwa)"
+   },
+   "kbDeleteSelectedVideos": {
+      "message": "Usuwa wybrane filmy lub skupiony wideo z listy odtwarzania lub historii (z monitem o potwierdzenie)"
+   },
+   "kbFocusAboveVideo": {
+      "message": "Ustawia ostrość na poprzednim/powyżej wideo"
+   },
+   "kbFocusBelowVideo": {
+      "message": "Ustawia ostrość na następnym/poniższym wideo"
+   },
+   "kbFocusFirstMenuItem": {
+      "message": "Ustawia ostrość na pierwszym elemencie menu"
+   },
+   "kbFocusFirstVideo": {
+      "message": "Ustawia ostrość na pierwszym filmie"
+   },
+   "kbFocusLastMenuItem": {
+      "message": "Ustawia ostrość na ostatnim elemencie menu"
+   },
+   "kbFocusLastVideo": {
+      "message": "Koncentruje się na ostatnim filmie (ładuje następną partię filmów)"
+   },
+   "kbFocusNextMenuItem": {
+      "message": "Ustawia ostrość następny elemencie menu"
+   },
+   "kbFocusNextSelectedVideo": {
+      "message": "Koncentruje się na następnym wybranym filmie"
+   },
+   "kbFocusNextVideo": {
+      "message": "Ustawia ostrość w następnym filmie"
+   },
+   "kbFocusPreviousMenuItem": {
+      "message": "Ustawia ostrość na poprzedni elemencie menu"
+   },
+   "kbFocusPreviousSelectedVideo": {
+      "message": "Koncentruje się na wcześniej wybranym filmie"
+   },
+   "kbFocusPreviousVideo": {
+      "message": "Ustawia ostrość na poprzednim filmie"
+   },
+   "kbPasteVideos": {
+      "message": "Wkleja filmy ze schowka do bieżącej listy odtwarzania"
+   },
+   "kbToggleAllVideos": {
+      "message": "Zaznacza lub usuwa zaznaczenie wszystkich filmów"
+   },
+   "kbToggleFocusedVideo": {
+      "message": "Zaznacza lub odznacza skupiony film"
+   },
+   "keys": {
+      "message": "Klucze"
+   },
+   "loadEntirePlaylist": {
+      "message": "Załaduj całą listę odtwarzania"
+   },
+   "loadingEntirePlaylist": {
+      "message": "Ładowanie całej listy odtwarzania"
+   },
+   "localeDir": {
+      "message": "ltr"
+   },
+   "moveAfter": {
+      "message": "Przejdź tutaj"
+   },
+   "moveToBottom": {
+      "message": "Przenieś na koniec"
+   },
+   "moveToTop": {
+      "message": "Przenieś na początek"
+   },
+   "news": {
+      "message": "\u003Ch2>w wersji 3.5\u003C/h2>\u003Cspan>🔧 Naprawiono wykrywanie wideo\u003C/span>\u003Ch2>w wersji 3.4\u003C/h2>\u003Cspan><s>✔️ Opcja nieudokumentowana: Blokuj reklamy</s>\u003C/span>\u003Cspan>🎁 Dodawaj filmy z plików do list odtwarzania\u003C/span>\u003Cspan>🎁 Zapisz wybór do pliku\u003C/span>\u003Cspan>🎁 Wybierz obejrzane filmy za pomocą filtra\u003C/span>\u003Cspan>🎁 Dowolnie ustawiaj pasek akcji i filtr\u003C/span>\u003Ch2>w wersji 3.3\u003C/h2>\u003Cspan>🔧 Naprawiono dodanie do nowej listy odtwarzania\u003C/span>\u003Cspan>✔️ Opcja: Znajdź duplikaty wstecz\u003C/span>\u003Ch2>w wersji 3.2\u003C/h2>\u003Cspan>🔧 Naprawiono wykrywanie wideo\u003C/span>\u003Cspan>✔️ Opcja: Usuń bez zapytania zabezpieczającego\u003C/span>\u003Cspan>✨ Załaduj całą listę odtwarzania\u003C/span>\u003Cspan>🎁 Wybierz filmy według nazwy kanału\u003C/span>\u003Cspan>🎁 Pełne menu kontekstowe\u003C/span>\u003Ch2>w wersji 3.1\u003C/h2>\u003Cspan>🔨 Naprawiono niewidoczne ikony na pasku akcji\u003C/span>\u003Cspan>🔨 Naprawiono menu z trzema kropkami na pasku akcji\u003C/span>\u003Cspan>🎁 Alternatywna pozycja paska akcji, lewy dolny róg\u003C/span>\u003Ch2>w wersji 3.0\u003C/h2>\u003Cspan>✔️ Obsługuje nowy interfejs Manifest V3\u003C/span>\u003Cspan>✔️ Doświadczenie użytkownika zostało przeprojektowane od podstaw\u003C/span>\u003Cspan>✔️ Ten sam ciemny/jasny wyświetlacz jak w YouTube™\u003C/span>\u003Cspan>✔️ Wybrane filmy są wyraźnie podświetlone\u003C/span>\u003Cspan>✔️ Ikona przycisku włączania/wyłączania wielokrotnego wyboru\u003C/span>\u003Cspan>✔️ Pasek akcji\u003C/span>\u003Cspan>✔️ Menu kontekstowe\u003C/span>\u003Cspan>🚀 Nawigacja za pomocą klawiatury\u003C/span>\u003Cspan>🚀 Kopiuj, wycinaj i wklejaj filmy\u003C/span>\u003Cspan>✨ Znajdź duplikaty\u003C/span>\u003Cspan>🎁 Wybierz filmy z filtrem\u003C/span>"
+   },
+   "noDuplicatesFound": {
+      "message": "Nie znaleziono duplikatów"
+   },
+   "noRemovalConfirmation": {
+      "message": "Usuń bez zapytania zabezpieczającego"
+   },
+   "paste": {
+      "message": "Wklejaj"
+   },
+   "positioning": {
+      "message": "Ustaw pasek akcji i filtr"
+   },
+   "preserveSelection": {
+      "message": "Zachowaj wybór po skopiowaniu"
+   },
+   "reloadRequired": {
+      "message": "\u003Cp>To rozszerzenie zostało zaktualizowane.\u003C/p>\u003Cp>Załaduj ponownie tę stronę.\u003C/p>"
+   },
+   "remove": {
+      "message": "Usunąć"
+   },
+   "removeVideos": {
+      "message": "Usuń z tej listy"
+   },
+   "resetCallouts": {
+      "message": "Powtórz wycieczkę wprowadzającą"
+   },
+   "selectAllVideos": {
+      "message": "Wybierz wszystkie filmy"
+   },
+   "selectDuplicates": {
+      "message": "Wybierz duplikaty"
+   },
+   "selectWithFilter": {
+      "message": "Wybierz z filtrem"
+   },
+   "selected": {
+      "message": "wybranych"
+   },
+   "shortcuts": {
+      "message": "Skróty klawiszowe"
+   },
+   "shortcutsHeadline1": {
+      "message": "Nawigacja na stronie"
+   },
+   "shortcutsHeadline2": {
+      "message": "Nawigacja na pasku akcji i menu kontekstowym"
+   },
+   "showVideoIndex": {
+      "message": "Pokaż indeks filmów na swoich playlistach"
+   },
+   "sortPlaylistNames": {
+      "message": "Pokaż posortowane nazwy playlist"
+   },
+   "tabHints": {
+      "message": "Porady"
+   },
+   "tabSettings": {
+      "message": "Ustawienia"
+   },
+   "tabShortcuts": {
+      "message": "Wiązania klawiszy"
+   },
+   "tabWhatsNew": {
+      "message": "Co nowego"
+   },
+   "title": {
+      "message": "Tytuł"
+   },
+   "toggleMultiSelectMode": {
+      "message": "Włącz/wyłącz Wielowybierać"
+   },
+   "watched": {
+      "message": "Obejrzane"
+   }
+}

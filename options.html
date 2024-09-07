@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/options.css" rel="stylesheet" />
+  </head>
+  <body id="options">
+    <main>
+      <div class="tabs">
+        <input type="radio" name="tabs" id="whats-new" checked="checked" />
+        <input type="radio" name="tabs" id="hints" />
+        <input type="radio" name="tabs" id="shortcuts" />
+        <input type="radio" name="tabs" id="settings" />
+        <nav>
+          <label for="whats-new" data-text="tabWhatsNew"></label>
+          <label for="hints" data-text="tabHints"></label>
+          <label for="shortcuts" data-text="tabShortcuts"></label>
+          <label for="settings" data-text="tabSettings"></label>
+        </nav>
+        <figure>
+          <div class="whats-new">
+            <div>
+              <section data-html="news"></section>
+            </div>
+          </div>
+          <div class="hints">
+            <div>
+              <div>
+                <h3 data-text="hint100"></h3>
+                <ul>
+                  <li data-text="hint101"></li>
+                  <ul>
+                    <li data-text="hint101a"></li>
+                  </ul>
+                  <li data-text="hint102"></li>
+                  <li data-text="hint103"></li>
+                  <li data-text="hint104"></li>
+                  <li data-text="hint105"></li>
+                  <li data-text="hint106"></li>
+                </ul>
+                <h3 data-text="hint200"></h3>
+                <ul>
+                  <li data-text="hint206"></li>
+                  <li data-text="hint201"></li>
+                  <li data-text="hint202"></li>
+                  <li data-text="hint203"></li>
+                  <ul>
+                    <li data-text="hint203a"></li>
+                  </ul>
+                  <li data-text="hint204"></li>
+                  <li data-text="hint205"></li>
+                  <ul>
+                    <li data-text="hint205a"></li>
+                  </ul>
+                  <li data-text="hint207"></li>
+                  <ul>
+                    <li data-text="hint207a"></li>
+                  </ul>
+                </ul>
+                <h3 data-text="hint300"></h3>
+                <ul>
+                  <li data-text="hint301"></li>
+                  <li data-text="hint302"></li>
+                  <ul>
+                    <li data-text="hint302a"></li>
+                  </ul>
+                  <li data-text="hint303"></li>
+                  <li data-text="hint304"></li>
+                  <ul>
+                    <li data-text="hint304a"></li>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="shortcuts">
+            <div>
+              <div>
+                <h3 data-text="shortcutsHeadline1"></h3>
+                <div><kbd data-text="home"></kbd></div>
+                <div data-text="kbFocusFirstVideo"></div>
+                <div><kbd data-text="end"></kbd></div>
+                <div data-text="kbFocusLastVideo"></div>
+                <div><kbd>↑</kbd></div>
+                <div data-text="kbFocusAboveVideo"></div>
+                <div><kbd>↓</kbd></div>
+                <div data-text="kbFocusBelowVideo"></div>
+                <div><kbd>←</kbd> , <kbd>⇧</kbd>+<kbd>↹</kbd></div>
+                <div data-text="kbFocusPreviousVideo"></div>
+                <div><kbd>→</kbd> , <kbd>↹</kbd></div>
+                <div data-text="kbFocusNextVideo"></div>
+                <div><kbd data-text="ctrl"></kbd>+<kbd>←</kbd></div>
+                <div data-text="kbFocusPreviousSelectedVideo"></div>
+                <div><kbd data-text="ctrl"></kbd>+<kbd>→</kbd></div>
+                <div data-text="kbFocusNextSelectedVideo"></div>
+                <div><kbd><span class="space-bar">␣</span></kbd> , <kbd>↵</kbd></div>
+                <div data-text="kbToggleFocusedVideo"></div>
+                <div><kbd data-text="ctrl"></kbd>+<kbd>A</kbd></div>
+                <div data-text="kbToggleAllVideos"></div>
+                <div><kbd data-text="ctrl"></kbd>+<kbd>C</kbd> , <kbd data-text="ctrl"></kbd>+<kbd
+                    data-text="ins"></kbd>
+                </div>
+                <div data-text="kbCopySelectedVideos"></div>
+                <div><kbd data-text="ctrl"></kbd>+<kbd>V</kbd> , <kbd>⇧</kbd>+<kbd data-text="ins"></kbd></div>
+                <div data-text="kbPasteVideos"></div>
+                <div><kbd data-text="ctrl"></kbd>+<kbd>X</kbd> , <kbd>⇧</kbd>+<kbd data-text="del"></kbd></div>
+                <div data-text="kbCutSelectedVideos"></div>
+                <div><kbd data-text="del"></kbd></div>
+                <div data-text="kbDeleteSelectedVideos"></div>
+              </div>
+              <div>
+                <h3 data-text="shortcutsHeadline2"></h3>
+                <div><kbd data-text="home"></kbd></div>
+                <div data-text="kbFocusFirstMenuItem"></div>
+                <div><kbd data-text="end"></kbd></div>
+                <div data-text="kbFocusLastMenuItem"></div>
+                <div><kbd>↑</kbd> , <kbd>←</kbd> , <kbd>⇧</kbd>+<kbd>↹</kbd></div>
+                <div data-text="kbFocusPreviousMenuItem"></div>
+                <div><kbd>↓</kbd> , <kbd>→</kbd> , <kbd>↹</kbd></div>
+                <div data-text="kbFocusNextMenuItem"></div>
+                <div><kbd><span class="space-bar">␣</span></kbd> , <kbd>↵</kbd></div>
+                <div data-text="kbActivateFocusedMenuItem"></div>
+                <div><kbd data-text="esc"></kbd></div>
+                <div data-text="kbCloseMenu"></div>
+              </div>
+            </div>
+          </div>
+          <div class="settings"></div>
+        </figure>
+      </div>
+    </main>
+
+    <script src="js/options.js"></script>
+  </body>
+</html>

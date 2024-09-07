@@ -1,0 +1,356 @@
+{
+   "addToPlaylist": {
+      "message": "Save to playlist"
+   },
+   "addToQueue": {
+      "message": "Add to queue"
+   },
+   "addToWatchLater": {
+      "message": "Save to Watch later"
+   },
+   "addVideosFromFile": {
+      "message": "Add videos from file"
+   },
+   "bottomCenter": {
+      "message": "bottom center"
+   },
+   "bottomLeft": {
+      "message": "bottom left"
+   },
+   "callout1": {
+      "message": "Here you switch the multiple selection on and off or with these"
+   },
+   "callout2": {
+      "message": "Here is the action bar for multiple selection."
+   },
+   "callout3": {
+      "message": "Here you can close the action bar again."
+   },
+   "callout4": {
+      "message": "If you like this extension, I would appreciate a small donation."
+   },
+   "callout5": {
+      "message": "Here you can see how many videos you have selected."
+   },
+   "callout6": {
+      "message": "Here you can select all videos."
+   },
+   "callout7": {
+      "message": "Here you can deselect all selected videos again."
+   },
+   "callout8": {
+      "message": "Here is a menu with additional functions."
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "caseSensitive": {
+      "message": "Case sensitive"
+   },
+   "channelName": {
+      "message": "Channel name"
+   },
+   "chooseOutputFormat": {
+      "message": "Please select an output format"
+   },
+   "clickToClose": {
+      "message": "Click to close"
+   },
+   "close": {
+      "message": "Close"
+   },
+   "confirmRemoveContent": {
+      "message": "Are you sure you want to remove the selected videos from this list?"
+   },
+   "copy": {
+      "message": "Copy"
+   },
+   "ctrl": {
+      "message": "Ctrl"
+   },
+   "custom": {
+      "message": "custom"
+   },
+   "cut": {
+      "message": "Cut"
+   },
+   "del": {
+      "message": "Del"
+   },
+   "deselectAllVideos": {
+      "message": "Deselect all videos"
+   },
+   "donate": {
+      "message": "Donate"
+   },
+   "downloadSelection": {
+      "message": "Save selection to file"
+   },
+   "end": {
+      "message": "End"
+   },
+   "esc": {
+      "message": "Esc"
+   },
+   "extensionDescription": {
+      "message": "Move, sort, and copy videos in your playlists faster and easier."
+   },
+   "extensionName": {
+      "message": "Multiselect for YouTube™"
+   },
+   "filterHelpTooltip": {
+      "message": "Regular expression syntax"
+   },
+   "findDuplicatesBackwards": {
+      "message": "Find duplicates backwards"
+   },
+   "hint100": {
+      "message": "Generally"
+   },
+   "hint101": {
+      "message": "You can enable and disable multiple selection with the blue icon button in the header bar"
+   },
+   "hint101a": {
+      "message": "If multiple selection is disabled, key bindings are also disabled"
+   },
+   "hint102": {
+      "message": "If you navigate to another page, the current selection is lost"
+   },
+   "hint103": {
+      "message": "If you continue navigating in the same direction in a menu or on a page, you go from first to last and from last to first item"
+   },
+   "hint104": {
+      "message": "“Watch more” and “Show less” in the left pane with playlist names can be expanded and collapsed with Ctrl+I"
+   },
+   "hint105": {
+      "message": "In this version, the clipboard is a small memory within the extension and not the operating system clipboard"
+   },
+   "hint106": {
+      "message": "The theme (dark/light) is automatically adopted from YouTube™"
+   },
+   "hint200": {
+      "message": "Selecting videos"
+   },
+   "hint201": {
+      "message": "You can select or deselect a video with a mouse click"
+   },
+   "hint202": {
+      "message": "You can select or deselect a focused video with Spacebar/Enter"
+   },
+   "hint203": {
+      "message": "A focused video has a turquoise border"
+   },
+   "hint203a": {
+      "message": "If you don't see a focus or no video has been focused yet, press a navigation key"
+   },
+   "hint204": {
+      "message": "A selected video will be highlighted in steel blue and will have a check mark in the bottom right corner"
+   },
+   "hint205": {
+      "message": "Hold down the Shift key to select multiple consecutive videos"
+   },
+   "hint205a": {
+      "message": "Click or focus on the first video to select, hold Shift and click or focus on the last video to select"
+   },
+   "hint206": {
+      "message": "You can select videos with the filter"
+   },
+   "hint207": {
+      "message": "You can save the IDs of the selected videos to a file"
+   },
+   "hint207a": {
+      "message": "Output formats: JSON, TEXT, HTML"
+   },
+   "hint300": {
+      "message": "Playlists"
+   },
+   "hint301": {
+      "message": "You can only add videos to your own playlists, including Watch later"
+   },
+   "hint302": {
+      "message": "You can only delete videos in your own playlists, including Watch later, Liked videos, and History"
+   },
+   "hint302a": {
+      "message": "Videos are only deleted if you confirm the security prompt"
+   },
+   "hint303": {
+      "message": "Videos are added to the top or bottom of a playlist as configured in the playlist settings"
+   },
+   "hint304": {
+      "message": "You can add videos from a file"
+   },
+   "hint304a": {
+      "message": "Import formats: JSON, TEXT, HTML"
+   },
+   "home": {
+      "message": "Home"
+   },
+   "ins": {
+      "message": "Ins"
+   },
+   "invalidData": {
+      "message": "Invalid data"
+   },
+   "invalidFilter": {
+      "message": "Invalid regular expression"
+   },
+   "kbActivateFocusedMenuItem": {
+      "message": "Activates the focused menu item"
+   },
+   "kbCloseMenu": {
+      "message": "Closes the menu"
+   },
+   "kbCopySelectedVideos": {
+      "message": "Copies the selected videos to the clipboard"
+   },
+   "kbCutSelectedVideos": {
+      "message": "Copies the selected videos to the clipboard and deletes them from your playlist or history (with security prompt)"
+   },
+   "kbDeleteSelectedVideos": {
+      "message": "Deletes the selected videos or the focused video from your playlist or history (with confirmation prompt)"
+   },
+   "kbFocusAboveVideo": {
+      "message": "Focuses the previous/above video"
+   },
+   "kbFocusBelowVideo": {
+      "message": "Focuses the next/below video"
+   },
+   "kbFocusFirstMenuItem": {
+      "message": "Focuses the first menu item"
+   },
+   "kbFocusFirstVideo": {
+      "message": "Focuses the first video"
+   },
+   "kbFocusLastMenuItem": {
+      "message": "Focuses the last menu item"
+   },
+   "kbFocusLastVideo": {
+      "message": "Focuses the last video (loads the next batch of videos)"
+   },
+   "kbFocusNextMenuItem": {
+      "message": "Focuses the next menu item"
+   },
+   "kbFocusNextSelectedVideo": {
+      "message": "Focuses the next selected video"
+   },
+   "kbFocusNextVideo": {
+      "message": "Focuses the next video"
+   },
+   "kbFocusPreviousMenuItem": {
+      "message": "Focuses the previous menu item"
+   },
+   "kbFocusPreviousSelectedVideo": {
+      "message": "Focuses the previous selected video"
+   },
+   "kbFocusPreviousVideo": {
+      "message": "Focuses the previous video"
+   },
+   "kbPasteVideos": {
+      "message": "Pastes the videos from the clipboard into the current playlist"
+   },
+   "kbToggleAllVideos": {
+      "message": "Selects or deselects all videos"
+   },
+   "kbToggleFocusedVideo": {
+      "message": "Selects or deselects the focused video"
+   },
+   "keys": {
+      "message": "Keys"
+   },
+   "loadEntirePlaylist": {
+      "message": "Load entire playlist"
+   },
+   "loadingEntirePlaylist": {
+      "message": "Loading entire playlist"
+   },
+   "localeDir": {
+      "message": "ltr"
+   },
+   "moveAfter": {
+      "message": "Move down here"
+   },
+   "moveToBottom": {
+      "message": "Move to bottom"
+   },
+   "moveToTop": {
+      "message": "Move to top"
+   },
+   "news": {
+      "message": "\u003Ch2>in version 3.5\u003C/h2>\u003Cspan>🔧 Fixed video detection\u003C/span>\u003Ch2>in version 3.4\u003C/h2>\u003Cspan><s>✔️ Undocumented option: Block ads</s>\u003C/span>\u003Cspan>🎁 Add videos from files to playlists\u003C/span>\u003Cspan>🎁 Save selection to file\u003C/span>\u003Cspan>🎁 Select watched videos using the filter\u003C/span>\u003Cspan>🎁 Freely position the action bar and filter\u003C/span>\u003Ch2>in version 3.3\u003C/h2>\u003Cspan>🔧 Fixed: Save videos to new playlist\u003C/span>\u003Cspan>✔️ Option: Find duplicates backwards\u003C/span>\u003Ch2>in version 3.2\u003C/h2>\u003Cspan>🔧 Fixed video detection\u003C/span>\u003Cspan>✔️ Option: Delete without security query\u003C/span>\u003Cspan>✨ Load entire playlist\u003C/span>\u003Cspan>🎁 Select videos by channel name\u003C/span>\u003Cspan>🎁 Full context menu\u003C/span>\u003Ch2>in version 3.1\u003C/h2>\u003Cspan>🔨 Fixed invisible icons in action bar\u003C/span>\u003Cspan>🔨 Fixed 3-dot menu in action bar\u003C/span>\u003Cspan>🎁 Alternate position of the action bar, bottom left\u003C/span>\u003Ch2>in version 3.0\u003C/h2>\u003Cspan>✔️ Supports the new interface Manifest V3\u003C/span>\u003Cspan>✔️ The user experience has been redesigned from the ground up\u003C/span>\u003Cspan>✔️ Same display dark/light as in YouTube™\u003C/span>\u003Cspan>✔️ Selected videos are clearly highlighted\u003C/span>\u003Cspan>✔️ Icon button to toggle multiple selection on/off\u003C/span>\u003Cspan>✔️ Action bar\u003C/span>\u003Cspan>✔️ Context menu\u003C/span>\u003Cspan>🚀 Keyboard navigation\u003C/span>\u003Cspan>🚀 Copy, cut and paste videos\u003C/span>\u003Cspan>✨ Find duplicates\u003C/span>\u003Cspan>🎁 Select videos with the filter\u003C/span>"
+   },
+   "noDuplicatesFound": {
+      "message": "No duplicates found"
+   },
+   "noRemovalConfirmation": {
+      "message": "Delete without security query"
+   },
+   "paste": {
+      "message": "Paste"
+   },
+   "positioning": {
+      "message": "Position action bar and filter"
+   },
+   "preserveSelection": {
+      "message": "Keep selection after copying"
+   },
+   "reloadRequired": {
+      "message": "\u003Cp>The extension has been updated.\u003C/p>\u003Cp>Please reload this page.\u003C/p>"
+   },
+   "remove": {
+      "message": "Remove"
+   },
+   "removeVideos": {
+      "message": "Remove from this list"
+   },
+   "resetCallouts": {
+      "message": "Repeat introductory tour"
+   },
+   "selectAllVideos": {
+      "message": "Select all videos"
+   },
+   "selectDuplicates": {
+      "message": "Select duplicates"
+   },
+   "selectWithFilter": {
+      "message": "Select with filter"
+   },
+   "selected": {
+      "message": "selected"
+   },
+   "shortcuts": {
+      "message": "Keyboard shortcuts"
+   },
+   "shortcutsHeadline1": {
+      "message": "Navigation on the website"
+   },
+   "shortcutsHeadline2": {
+      "message": "Navigation in the action bar and context menu"
+   },
+   "showVideoIndex": {
+      "message": "Show the video index in your playlists"
+   },
+   "sortPlaylistNames": {
+      "message": "Show playlist names sorted"
+   },
+   "tabHints": {
+      "message": "Hints"
+   },
+   "tabSettings": {
+      "message": "Settings"
+   },
+   "tabShortcuts": {
+      "message": "Key bindings"
+   },
+   "tabWhatsNew": {
+      "message": "What's new"
+   },
+   "title": {
+      "message": "Title"
+   },
+   "toggleMultiSelectMode": {
+      "message": "Turn Multiselect on/off"
+   },
+   "watched": {
+      "message": "Watched"
+   }
+}

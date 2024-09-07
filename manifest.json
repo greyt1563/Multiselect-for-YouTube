@@ -1,0 +1,96 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "action": {
+    "default_icon": {
+      "24": "icons/24.png",
+      "48": "icons/48.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "author": "Pollux",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "toggleMultiSelectMode": {
+      "description": "__MSG_toggleMultiSelectMode__",
+      "suggested_key": {
+        "default": "Ctrl+Q"
+      }
+    },
+    "togglePlaylistGuide": {
+      "description": "Playlist-Guide umschalten",
+      "suggested_key": {
+        "default": "Ctrl+I"
+      }
+    }
+  },
+  "content_scripts": [
+    {
+      "exclude_matches": [
+        "https://www.youtube.com/error?*",
+        "https://www.youtube.com/howyoutubeworks/*",
+        "https://www.youtube.com/intl/*",
+        "https://www.youtube.com/kids/*",
+        "https://www.youtube.com/live_chat?*",
+        "https://www.youtube.com/pop-up-player/*"
+      ],
+      "js": [
+        "js/start.js"
+      ],
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "css": [
+        "css/main.css"
+      ],
+      "exclude_matches": [
+        "https://www.youtube.com/error?*",
+        "https://www.youtube.com/howyoutubeworks/*",
+        "https://www.youtube.com/intl/*",
+        "https://www.youtube.com/kids/*",
+        "https://www.youtube.com/live_chat?*",
+        "https://www.youtube.com/pop-up-player/*"
+      ],
+      "js": [
+        "js/content.js"
+      ],
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "default_locale": "en",
+  "description": "__MSG_extensionDescription__",
+  "icons": {
+    "128": "icons/128.png",
+    "24": "icons/24.png",
+    "48": "icons/48.png",
+    "96": "icons/96.png"
+  },
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "options.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "version": "3.5",
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "js/polymer.js"
+      ],
+      "matches": [
+        "https://www.youtube.com/*"
+      ]
+    }
+  ]
+}

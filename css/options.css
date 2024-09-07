@@ -1,0 +1,336 @@
+:root {
+  --max-width: 800px;
+}
+
+html:not([dark]) {
+  --primary-color: rgb(15, 15, 15);
+  --primary-background-color: rgb(247, 247, 245);
+  --panel-color: rgb(221, 225, 231);
+  --button-color: rgb(221, 225, 231);
+  --border-color: rgb(221, 225, 231);
+  --box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+  --box-shadow-hover: -5px -5px 9px rgba(255, 255, 255, 0.9), 5px 5px 9px rgba(94, 104, 121, 0.6);
+  --box-shadow-active: inset -3px -3px 5px rgba(255, 255, 255, 0.9), inset 3px 3px 5px rgba(94, 104, 121, 0.6);
+  --brightness: brightness(100%);
+  --brightness-hover: brightness(96%);
+  --brightness-active: brightness(92%);
+  --tab-inactive-color: rgb(179, 179, 179);
+  --tab-inactive-color-hover: rgb(204, 204, 204);
+}
+html[dark] {
+  --primary-color: rgb(240, 240, 240);
+  --primary-background-color: rgb(53, 53, 53);
+  --panel-color: rgb(0, 0, 0);
+  --button-color: rgb(44, 44, 44);
+  --border-color: rgb(44, 44, 44);
+  --box-shadow: 1px 1px 2px rgba(0, 255, 255, 0.4), 2px 2px 4px rgba(0, 255, 255, 0.4), 4px 4px 8px rgba(0, 255, 255, 0.4);
+  --box-shadow-active: 0px 0px 2px rgba(0, 255, 255, 0.9), 2px 2px 4px rgba(0, 255, 255, 0.9);
+  --box-shadow-hover: var(--box-shadow-active), 4px 4px 8px rgba(0, 255, 255, 0.9);
+  --brightness: brightness(90%);
+  --brightness-hover: brightness(100%);
+  --brightness-active: brightness(110%);
+  --tab-inactive-color: rgb(77, 77, 77);
+  --tab-inactive-color-hover: rgb(102, 102, 102);
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-size: 14px;
+  color: var(--primary-color);
+  user-select: none;
+  margin: 0;
+  padding: 8px;
+}
+
+kbd {
+  font-family: inherit;
+  background-color: var(--button-color);
+  border-radius: 3px;
+  box-shadow: var(--box-shadow);
+  display: inline-block;
+  line-height: 1;
+  padding: 2px 6px;
+  margin: 0 1px;
+}
+
+#popup {
+  background-color: var(--panel-color);
+  border: 1px solid var(--border-color);
+}
+
+#options {
+  background-color: var(--primary-background-color);
+}
+
+img {
+  pointer-events: none;
+}
+
+#popup > header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  width: max-content;
+}
+#popup > header img {
+  vertical-align: middle;
+}
+#popup > header > span {
+  padding-left: 10px;
+}
+#popup > header > button {
+  background-color: rgb(44, 44, 44);
+  border: none;
+  padding: 0;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow);
+}
+#popup > header > button:hover {
+  box-shadow: var(--box-shadow-hover);
+}
+#popup > header > button:active {
+  box-shadow: var(--box-shadow-active);
+}
+html[dark] > #popup > header > button:active {
+  translate: 2px 2px;
+}
+
+.whats-new > div > section {
+  margin: 20px;
+}
+.whats-new > div > section > span {
+  font-size: 20px;
+  display: block;
+  padding: 3px 0;
+}
+
+.whats-new,
+.hints,
+.shortcuts {
+  padding: 20px 3px 20px 10px;
+}
+.whats-new > div,
+.hints > div,
+.shortcuts > div {
+  overflow: auto;
+  max-height: calc(100vh - 170px);
+}
+.hints > div > div,
+.shortcuts > div > div {
+  padding: 0 20px 0 10px;
+}
+
+.hints > div > div > h3 {
+  margin-block-end: 4px;
+}
+.hints > div > div > ul {
+  margin-block-start: 4px;
+  list-style-type: "🔹  ";
+}
+.hints > div > div > ul > ul {
+  list-style-type: "👉  ";
+}
+
+.shortcuts {
+  line-height: 19px;
+}
+.shortcuts > div > div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* grid-column-gap: 20px; */
+  grid-row-gap: 8px;
+}
+.shortcuts > div > div > h3 {
+  grid-column: span 2;
+}
+.shortcuts > div > div > div:nth-last-child(2) {
+  margin-bottom: 10px;
+}
+.shortcuts .space-bar {
+  line-height: 0;
+  font-size: 32px;
+  position: relative;
+  top: -6px;
+}
+
+.settings {
+  padding: 20px;
+}
+.settings > ul {
+  padding-inline-start: 0;
+  width: max-content;
+}
+.settings > ul > li,
+.settings > ul > div > div {
+  list-style: none;
+  border-radius: 8px;
+}
+.settings > ul > li[separator] {
+  margin-top: 10px;
+}
+.settings > ul > li:hover,
+.settings > ul > div > div:hover {
+  background-color: var(--button-color);
+  box-shadow: var(--box-shadow);
+}
+.settings > ul > li:active,
+.settings > ul > div > div:active {
+  background-color: var(--button-color);
+  box-shadow: var(--box-shadow-active);
+}
+.settings > ul > li > label,
+.settings > ul > div > div > label {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  cursor: pointer;
+}
+.settings > ul > li > label > input,
+.settings > ul > div > div > label > input {
+  cursor: pointer;
+}
+.settings > ul > li > label > span,
+.settings > ul > div > div > label > span {
+  padding: 0 8px 0 4px;
+}
+.settings > ul > div {
+  padding: 10px 8px;
+}
+.settings > ul > div > div > label > input {
+  margin-top: 2px;
+}
+
+#options-buttons {
+  margin: 6px 14px;
+}
+#options-buttons > button {
+  height: 30px;
+  margin: 6px 0;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  color: inherit;
+  background-color: var(--button-color);
+  box-shadow: var(--box-shadow);
+  filter: blur(0);
+  transition: all 0.2s;
+}
+#options-buttons > button:hover {
+  box-shadow: var(--box-shadow-hover);
+}
+#options-buttons > button:active {
+  box-shadow: var(--box-shadow-active);
+}
+html[dark] #options-buttons > button:active {
+  translate: 2px 2px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+  white-space: nowrap;
+}
+footer > a {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#donate-button {
+  background-color: rgb(255, 194, 76);
+  color: rgb(15, 15, 15);
+  font-size: 16px;
+  font-weight: 700;
+  height: 35px;
+  padding: 0px 20px;
+  border-radius: 26px;
+  border: none;
+}
+
+#donate-button,
+footer > a {
+  margin: 8px;
+  cursor: pointer;
+}
+
+footer > a {
+  border-radius: 6px;
+}
+
+footer > a > img {
+  width: 150px;
+  height: 35px;
+  border-radius: 6px;
+}
+
+#donate-button,
+footer > a {
+  /* transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: all ease 0.2s;
+  filter: var(--brightness);
+  box-shadow: var(--box-shadow);
+}
+#donate-button:hover,
+footer > a:hover {
+  filter: var(--brightness-hover);
+  box-shadow: var(--box-shadow-hover);
+}
+#donate-button:active,
+footer > a:active {
+  translate: 2px 2px;
+  filter: var(--brightness-active);
+  box-shadow: var(--box-shadow-active);
+}
+
+main {
+  margin: 2em auto;
+  max-width: var(--max-width);
+  width: var(--max-width);
+}
+
+.tabs > figure {
+  margin-left: 0;
+  clear: both;
+}
+
+.tabs > input,
+.tabs > figure > div {
+  display: none;
+}
+.tabs > figure > div {
+  background-color: var(--panel-color);
+  border-radius: 0px 6px 6px 6px;
+}
+.tabs > nav > label {
+  line-height: 19px;
+  float: left;
+  padding: 15px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: var(--tab-inactive-color);
+  cursor: pointer;
+}
+.tabs > nav > label:hover {
+  background-color: var(--tab-inactive-color-hover);
+}
+.tabs > nav > label:active {
+  background-color: var(--panel-color);
+}
+
+#whats-new:checked ~ figure .whats-new,
+#hints:checked ~ figure .hints,
+#shortcuts:checked ~ figure .shortcuts,
+#settings:checked ~ figure .settings {
+  display: block;
+}
+#whats-new:checked ~ nav label[for="whats-new"],
+#hints:checked ~ nav label[for="hints"],
+#shortcuts:checked ~ nav label[for="shortcuts"],
+#settings:checked ~ nav label[for="settings"] {
+  background-color: var(--panel-color);
+}
